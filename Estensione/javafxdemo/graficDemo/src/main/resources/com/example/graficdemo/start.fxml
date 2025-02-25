@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="478.0" maxWidth="748.0" minHeight="478.0" minWidth="748.0" prefHeight="478.0" prefWidth="748.0" spacing="20.0" styleClass="bodyBg" stylesheets="@css/startBackground.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.graficdemo.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+          <Label alignment="CENTER" prefHeight="94.0" prefWidth="276.0" text="Kmeans">
+        <font>
+            <Font name="System Bold" size="40.0" />
+        </font>
+      <textFill>
+         <RadialGradient centerX="0.4159291782210358" centerY="0.23863634196194733" radius="0.5733945129114554">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill>
+    </Label>
+</VBox>
